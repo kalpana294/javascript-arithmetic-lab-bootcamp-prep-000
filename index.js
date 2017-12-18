@@ -38,3 +38,5 @@ var nan = "nonsense"
 function makeInt(nan){
   return parseInt(nan,10)
 }
+
+function preserveDecimal()
