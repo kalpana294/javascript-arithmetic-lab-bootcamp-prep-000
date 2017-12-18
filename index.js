@@ -35,3 +35,6 @@ function makeInt(nonInt){
 }
 
 var nan = "nonsense"
+function makeInt(nan){
+  return parseInt(nan,10)
+}
