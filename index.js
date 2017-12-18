@@ -27,10 +27,11 @@ function dec(b){
   return --b
 }
 function makeInt(a){
-  return parseInt(a)
+  return parseInt(a,10)
 }
 var nonInt = 5.78
 function makeInt(nonInt){
-  return parseInt(nonInt)
+  return parseInt(nonInt,10)
 }
 
+var nan = "nonsense"
