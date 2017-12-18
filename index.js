@@ -26,4 +26,6 @@ function inc(a){
 function dec(b){
   return --b
 }
-function ma
+function makeInt(a){
+  return parseInt(a)
+}
