@@ -26,3 +26,4 @@ function inc(a){
 function dec(b){
   return --b
 }
+function ma
