@@ -29,5 +29,8 @@ function dec(b){
 function makeInt(a){
   return parseInt(a)
 }
-
+var nonInt = 5.78
+function makeInt(nonInt){
+  return parseInt(nonInt)
+}
 
