@@ -23,3 +23,6 @@ function divide(a,b){
 function inc(a){
   return ++a
 }
+function dec(b){
+  return --b
+}
